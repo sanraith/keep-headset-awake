@@ -5,7 +5,7 @@ I made this because my HyperX Cloud Flight headset automatically turns off after
 
 Requirements:
 
-- .NET Core 3.1 runtime
+- .NET Core 3.1 SDK
 
 Usage:
 

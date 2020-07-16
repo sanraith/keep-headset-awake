@@ -29,7 +29,7 @@ namespace keep_headset_awake
             {
                 WriteStatus($"Beeping     until {DateTime.Now + beepLength:HH:mm:ss} at {beepFrequency} Hz.");
                 Console.Beep(beepFrequency, (int)beepLength.TotalMilliseconds);
-                WriteStatus($"Not beeping until {DateTime.Now + beepLength:HH:mm:ss} at {beepFrequency} Hz.");
+                WriteStatus($"Not beeping until {DateTime.Now + beepInterval:HH:mm:ss} at {beepFrequency} Hz.");
                 await Task.Delay(beepInterval);
             }
         }
