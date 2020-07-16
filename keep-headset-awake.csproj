@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>keep_headset_alive</RootNamespace>
+    <RootNamespace>keep_headset_awake</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>

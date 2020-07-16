@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 
-namespace keep_headset_alive
+namespace keep_headset_awake
 {
     public sealed class Program
     {
