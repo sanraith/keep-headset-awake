@@ -1,7 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <CustomOutputType>Exe</CustomOutputType>
+    <OutputType>$(CustomOutputType)</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>keep_headset_awake</RootNamespace>
   </PropertyGroup>
